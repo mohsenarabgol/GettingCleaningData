@@ -18,6 +18,6 @@ Here we explain the steps taken to clean up the data:
 9) We write the final into the "output.txt"  
 Note that you can always read this file as a data.frame using the following command:  
 > read.table("output.txt", header=TRUE, check.names=FALSE)  
-The resulting data.frame is a tidy dataset similar to final_data.  
+
 
 Note: The code takes a few minutes to run (~2-3 minutes with a core i5 CPU and 4GB Ram)
